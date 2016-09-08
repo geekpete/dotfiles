@@ -4,6 +4,7 @@ filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
 set t_Co=256              " enable 256-color mode.
 syntax enable             " enable syntax highlighting (previously syntax on).
 colorscheme pencil        " set colorscheme
+set background=dark       " pick the dark version of pencil colorscheme
 set laststatus=2          " last window always has a statusline
 filetype indent on        " activates indenting for files
 set nohlsearch            " Don't continue to highlight searched phrases.
