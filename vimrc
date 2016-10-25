@@ -21,3 +21,5 @@ set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
 set laststatus=2
 set backspace=indent,eol,start
+set spell spelllang=en_au
+set wrap
