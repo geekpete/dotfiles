@@ -23,3 +23,4 @@ set laststatus=2
 set backspace=indent,eol,start
 set spell spelllang=en_au
 set wrap
+let g:vim_json_syntax_conceal = 0
