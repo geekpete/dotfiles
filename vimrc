@@ -5,7 +5,9 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif                                                                                                                                 
 
 call plug#begin('~/.config/nvim/plugged')
-Plug 'tpope/vim-sensible'
+if !has('nvim')
+  Plug 'tpope/vim-sensible'
+endif
 Plug 'nelstrom/vim-markdown-folding'
 Plug 'tpope/vim-markdown'
 Plug 'vim-airline/vim-airline'
@@ -25,8 +27,16 @@ Plug 'zchee/deoplete-jedi'
 Plug 'Yggdroot/indentLine'
 Plug 'reedes/vim-pencil'
 Plug 'robbles/logstash.vim'
+Plug 'davidgranstrom/nvim-markdown-preview'
+"Plug 'dahu/vim-asciidoc'
 " Initialize plugin system
 call plug#end()
+
+
+" markdown preview
+let g:mkdp_port = '8081'
+let g:mkdp_browser = '/Applications/Firefox.app/Contents/MacOS/firefox'
+
 
 set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
 filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
