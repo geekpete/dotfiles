@@ -23,7 +23,6 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 Plug 'zchee/deoplete-jedi'
-"Plug 'sbdchd/neoformat'
 Plug 'Yggdroot/indentLine'
 Plug 'reedes/vim-pencil'
 Plug 'robbles/logstash.vim'
@@ -70,15 +69,6 @@ map <C-f> :NERDTreeToggle<CR>
 " Set this. Airline will handle the rest.
 let g:airline#extensions#ale#enabled = 1
 let g:deoplete#enable_at_startup = 1
-
-" Enable alignment
-"let g:neoformat_basic_format_align = 1
-
-" Enable tab to spaces conversion
-"let g:neoformat_basic_format_retab = 1
-
-" Enable trimmming of trailing whitespace
-"let g:neoformat_basic_format_trim = 1
 
 " F11 to enable pencil
 map <F11> :TogglePencil <CR>
