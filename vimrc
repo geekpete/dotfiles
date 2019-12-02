@@ -94,4 +94,4 @@ map <F12> :ALEFix <CR>
 " Enable trimmming of trailing whitespace
 let g:neoformat_basic_format_trim = 1
 map <F11> :TogglePencil <CR>
-let g:airline_extensions = ['branch', 'tabline', 'ale', 'whitespace'] 
+let g:airline_extensions = ['branch', 'tabline', 'ale', 'whitespace']
