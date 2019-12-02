@@ -1,0 +1,67 @@
+[CompactMode]
+FontWeight=50
+
+[Desktop Entry]
+DefaultProfile=
+
+[DetailsMode]
+FontWeight=50
+
+[DownloadDialog Settings]
+Height 1200=955
+Width 1920=1390
+Window-Maximized 1200x1920=true
+
+[Favorite Profiles]
+Favorites=
+
+[FileDialogSize]
+Height 1200=675
+Width 1920=1040
+
+[General]
+BrowseThroughArchives=true
+FilterBar=true
+LockPanels=false
+ShowFullPathInTitlebar=true
+Version=200
+ViewPropsTimestamp=2019,3,6,13,52,35
+
+[IconsMode]
+FontWeight=50
+
+[KFileDialog Settings]
+Recent Files[$e]=Google-Drive-icon.png,file:$HOME/Pictures/icons and emoji/Google-Drive-icon.png
+Recent URLs[$e]=file:$HOME/Pictures/icons and emoji/
+
+[KPropertiesDialog]
+Height 1080=542
+Height 1200=664
+Width 1920=510
+
+[MainWindow]
+Height 1080=1035
+Height 1200=1155
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAF2AAAD5fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAACIBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAAD5QAAAHIBAAADAAAAAQAAALgAAAO5/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACwAAAO5AAAAIgEAAAMAAAADAAAHgAAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHgAAAAEQBAAADAAAGBwAAA+UAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=1918
+Window-Maximized 1200x1920=true
+
+[Open-with settings]
+CompletionMode=1
+History=
+
+[PreviewSettings]
+Plugins=exrthumbnail,directorythumbnail,svgthumbnail,imagethumbnail,windowsexethumbnail,comicbookthumbnail,jpegthumbnail,rawthumbnail,ffmpegthumbs,audiothumbnail,djvuthumbnail,windowsimagethumbnail,fontthumbnail,kraorathumbnail,htmlthumbnail,gsthumbnail
+
+[Search]
+ShowFacetsWidget=true
+
+[SettingsDialog]
+Height 1200=633
+Width 1920=744
+
+[ViewPropertiesDialog]
+Height 1200=630
+Width 1920=525
