@@ -8,6 +8,8 @@ call plug#begin('~/.config/nvim/plugged')
 if !has('nvim')
   Plug 'tpope/vim-sensible'
 endif
+Plug 'kristijanhusak/orgmode.nvim'
+Plug 'psf/black', { 'branch': 'stable' }
 Plug 'nelstrom/vim-markdown-folding'
 Plug 'tpope/vim-markdown'
 Plug 'vim-airline/vim-airline'
@@ -24,19 +26,25 @@ else
 endif
 Plug 'zchee/deoplete-jedi'
 Plug 'sbdchd/neoformat'
-Plug 'Yggdroot/indentLine'
+"Plug 'Yggdroot/indentLine'
 Plug 'reedes/vim-pencil'
 Plug 'robbles/logstash.vim'
 Plug 'rust-lang/rust.vim'
 Plug 'editorconfig/editorconfig-vim'
 "Plug 'davidgranstrom/nvim-markdown-preview'
 "Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
-"Plug 'mcchrish/nnn.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+Plug 'mcchrish/nnn.vim'
+"Plug 'jceb/vim-orgmode'
+Plug 'morhetz/gruvbox'
 "Plug 'prettier/vim-prettier', {
 "  \ 'do': 'yarn install',
 "  \ }
 "Plug 'dahu/vim-asciidoc'
 " Initialize plugin system
+
+Plug 'ActivityWatch/aw-watcher-vim'
 call plug#end()
 
 
@@ -46,14 +54,14 @@ call plug#end()
 
 
 set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
-filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
+filetype plugin on " filetype detection[ON] plugin[ON] indent[ON]
 set t_Co=256              " enable 256-color mode.
 syntax enable             " enable syntax highlighting (previously syntax on).
 colorscheme pencil        " set colorscheme
 let g:airline_theme='pencil' " <theme> is a valid theme name
 set background=dark       " pick the dark version of pencil colorscheme
 set laststatus=2          " last window always has a statusline
-filetype indent on        " activates indenting for files
+filetype indent off        " activates indenting for files
 set nohlsearch            " Don't continue to highlight searched phrases.
 set incsearch             " But do highlight as you type your search.
 set ignorecase            " Make searches case-insensitive.
@@ -94,4 +102,8 @@ map <F12> :ALEFix <CR>
 " Enable trimmming of trailing whitespace
 let g:neoformat_basic_format_trim = 1
 map <F11> :TogglePencil <CR>
-let g:airline_extensions = ['branch', 'tabline', 'ale', 'whitespace'] 
+let g:airline_extensions = ['branch', 'tabline', 'ale', 'whitespace']
+" set foldmethod=indent
+"
+nnoremap <F9> :Black<CR>
+
