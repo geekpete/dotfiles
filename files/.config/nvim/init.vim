@@ -106,4 +106,3 @@ let g:airline_extensions = ['branch', 'tabline', 'ale', 'whitespace']
 " set foldmethod=indent
 "
 nnoremap <F9> :Black<CR>
-
